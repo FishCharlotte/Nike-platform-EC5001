@@ -62,7 +62,7 @@ function RecycleNow() {
         <div className="recycle-map">
           <h2>查找回收点</h2>
           <div className="map-container">
-            <LoadScript googleMapsApiKey="AIzaSyDFiRiAMvZkJKetZD4Weuwkwrm9q-PjnKw">
+            <LoadScript googleMapsApiKey="xxxxxxxxx">
               <GoogleMap
                 mapContainerStyle={mapContainerStyle}
                 center={center}
