@@ -25,7 +25,7 @@ function Home() {
       </div>
 
       <div className="ad-banner">
-        <img src="/ad.png" alt="Advertisement" className="ad-image" />
+        <img src="ad.png" alt="Advertisement" className="ad-image" />
       </div>
       
       <ProductCarousel />

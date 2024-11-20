@@ -8,7 +8,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="nav-left">
           <Link to="/" className="nav-logo">
-            <img src="/logo.svg" alt="Nike" />
+            <img src="logo.svg" alt="Nike" />
           </Link>
         </div>
         <div className="nav-center">
