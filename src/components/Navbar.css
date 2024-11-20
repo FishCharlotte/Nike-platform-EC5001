@@ -1,0 +1,136 @@
+.navbar-wrapper {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #f5f5f5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background: white;
+  padding: 0 36px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-logo img {
+  width: 58px;
+  height: auto;
+  display: block;
+}
+
+.nav-center {
+  flex: 2;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.nav-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: #111;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.2s ease;
+  padding: 4px 0;
+}
+
+.nav-center a:hover {
+  color: #757575;
+  transform: scale(1.05);
+}
+
+.nav-center a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #111;
+  transition: width 0.2s ease;
+}
+
+.nav-center a:hover::after {
+  width: 100%;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+}
+
+.nav-right input {
+  padding: 8px 16px 8px 44px;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  background: #f5f5f5;
+  width: 180px;
+  transition: all 0.2s ease;
+  font-size: 16px;
+  outline: none;
+}
+
+.nav-right input:hover {
+  background: #ffffff;
+  border-color: #cccccc;
+}
+
+.nav-right input:focus {
+  background: #ffffff;
+  border-color: #cccccc;
+  width: 200px;
+}
+
+.nav-right input::placeholder {
+  color: #757575;
+}
+
+.ad-banner {
+  width: 100%;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-banner img {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  display: block;
+  object-fit: cover;
+} 

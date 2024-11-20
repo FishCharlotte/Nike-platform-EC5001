@@ -1,0 +1,154 @@
+.carousel-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 40px auto;
+  padding: 0 36px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.carousel-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.carousel-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.carousel-tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tag {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tag.hot {
+  color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+  background: rgba(255, 77, 77, 0.1);
+}
+
+.tag.trending {
+  color: #00875a;
+  border: 1px solid #00875a;
+  background: rgba(0, 135, 90, 0.1);
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-content {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.carousel-item {
+  flex: 0 0 calc((100% - 48px) / 5);
+  position: relative;
+  background: #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.item-number {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #111;
+  z-index: 2;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-item h3 {
+  padding: 16px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  z-index: 2;
+}
+
+.carousel-button.prev {
+  left: 0;
+}
+
+.carousel-button.next {
+  right: 0;
+}
+
+.carousel-button:hover {
+  background: #f5f5f5;
+  transform: scale(1.1);
+}
+
+.carousel-button svg {
+  width: 24px;
+  height: 24px;
+  color: #111;
+}
+
+@media (max-width: 1024px) {
+  .carousel-item {
+    flex: 0 0 calc(25% - 15px);
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    flex: 0 0 calc(33.333% - 14px);
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-item {
+    flex: 0 0 calc(50% - 10px);
+  }
+} 
