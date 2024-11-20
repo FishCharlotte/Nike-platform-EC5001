@@ -1,6 +1,7 @@
 import React from 'react';
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
 import './RecycleNow.css';
+import config from '../config.json';
 
 function RecycleNow() {
   const [selectedStore, setSelectedStore] = React.useState(null);
@@ -62,7 +63,7 @@ function RecycleNow() {
         <div className="recycle-map">
           <h2>查找回收点</h2>
           <div className="map-container">
-            <LoadScript googleMapsApiKey="xxxxxxxxx">
+            <LoadScript googleMapsApiKey={config.googleMapsApiKey}>
               <GoogleMap
                 mapContainerStyle={mapContainerStyle}
                 center={center}
