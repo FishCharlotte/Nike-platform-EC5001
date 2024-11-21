@@ -6,11 +6,11 @@ import config from '../config.json';
 function RecycleNow() {
   const [selectedStore, setSelectedStore] = React.useState(null);
 
-  // 香港Nike门店位置
+  // 香港Nike門店位置
   const nikeStore = {
-    name: "Nike Causeway Bay",
-    address: "铜锣湾告士打道280号世贸中心13楼",
-    position: { lat: 22.2800, lng: 114.1850 }, // 铜锣湾坐标
+    name: "Nike 銅鑼灣 | Nike Causeway Bay",
+    address: "銅鑼灣告士打道280號世貿中心13樓 | 13/F, World Trade Centre, 280 Gloucester Road, Causeway Bay",
+    position: { lat: 22.2800, lng: 114.1850 }, // 銅鑼灣座標
     phone: "+852 2895 9882",
     hours: "10:00 AM - 10:00 PM"
   };
@@ -34,34 +34,35 @@ function RecycleNow() {
   return (
     <div className="recycle-now">
       <div className="recycle-header">
-        <h1>Nike 回收计划</h1>
-        <p>为了地球，为了未来</p>
+        <h1>Nike 回收計劃 | Nike Recycling Program</h1>
+        <p>為了地球，為了未來 | For the Earth, For the Future</p>
       </div>
       
       <div className="recycle-content">
         <div className="recycle-info">
-          <h2>如何参与回收</h2>
+          <h2>如何參與回收 | How to Participate</h2>
           <div className="steps">
             <div className="step">
               <div className="step-number">1</div>
-              <h3>收集旧鞋</h3>
-              <p>收集您不再穿着的Nike运动鞋</p>
+              <h3>收集舊鞋 | Collect Old Shoes</h3>
+              <p>收集您不再穿著的Nike運動鞋</p>
+              <p> Collect your unused Nike shoes</p>
             </div>
             <div className="step">
               <div className="step-number">2</div>
-              <h3>前往门店</h3>
-              <p>带到就近的Nike门店回收点</p>
+              <h3>前往門店 | Visit Store</h3>
+              <p>帶到就近的Nike回收點 | Bring to the nearest Nike recycling point</p>
             </div>
             <div className="step">
               <div className="step-number">3</div>
-              <h3>获得奖励</h3>
-              <p>获得Nike会员积分奖励</p>
+              <h3>獲得獎勵 | Get Rewards</h3>
+              <p>獲得Nike會員積分獎勵 | Earn Nike membership points</p>
             </div>
           </div>
         </div>
         
         <div className="recycle-map">
-          <h2>查找回收点</h2>
+          <h2>查找回收點 | Find Recycling Points</h2>
           <div className="map-container">
             <LoadScript googleMapsApiKey={config.googleMapsApiKey}>
               <GoogleMap
@@ -82,8 +83,8 @@ function RecycleNow() {
                     <div className="store-info">
                       <h3>{selectedStore.name}</h3>
                       <p>{selectedStore.address}</p>
-                      <p>电话: {selectedStore.phone}</p>
-                      <p>营业时间: {selectedStore.hours}</p>
+                      <p>電話 | Tel: {selectedStore.phone}</p>
+                      <p>營業時間 | Business Hours: {selectedStore.hours}</p>
                     </div>
                   </InfoWindow>
                 )}

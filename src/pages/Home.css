@@ -163,4 +163,11 @@
   height: auto;
   display: block;
   object-fit: cover;
+}
+
+.english-text {
+  display: block;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 4px;
 } 

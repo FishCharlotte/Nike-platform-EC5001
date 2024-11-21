@@ -11,17 +11,22 @@ function Home() {
     <div className="home">
       
       <div className="hero-section">
-        <h1>Nike 品質保證。</h1>
-        <p>購買認證的翻新產品，享受一年保固服務以及 Nike 認證的翻新產品卓越品質承諾</p>
+        <h1>Nike 品質保證 | Nike Quality Guarantee</h1>
+        <p>
+          購買認證的翻新產品，享受一年保固服務以及 Nike 認證的翻新產品卓越品質承諾 | 
+          Purchase certified refurbished products and enjoy one-year warranty service and Nike's commitment to excellence
+        </p>
         <div className="button-group">
           <button onClick={() => navigate('/buy')} className="primary-button">
-            Buy Now
+            立即購買 | Buy Now
           </button>
           <button onClick={() => navigate('/recycle')} className="secondary-button">
-            Recycle Now
+            立即回收 | Recycle Now
           </button>
         </div>
-        <a href="#learn-more" className="learn-more">進一步了解</a>
+        <a href="#learn-more" className="learn-more">
+          進一步了解 | Learn More
+        </a>
       </div>
 
       <div className="ad-banner">

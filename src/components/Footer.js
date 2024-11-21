@@ -42,7 +42,7 @@ function Footer() {
         <div className="footer-section location">
           <div className="location-selector">
             <span>🌍</span>
-            <span>Singapore</span>
+            <span>Hong Kong | Hong Kong</span>
           </div>
           <p className="copyright">© 2024 Nike, Inc. All rights reserved</p>
         </div>
