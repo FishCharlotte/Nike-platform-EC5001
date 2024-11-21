@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Nike-platform-EC5001/static/css/main.d439b079.css",
-    "main.js": "/Nike-platform-EC5001/static/js/main.a86b521e.js",
+    "main.css": "/Nike-platform-EC5001/static/css/main.93020101.css",
+    "main.js": "/Nike-platform-EC5001/static/js/main.b8d6dc6d.js",
     "index.html": "/Nike-platform-EC5001/index.html",
-    "main.d439b079.css.map": "/Nike-platform-EC5001/static/css/main.d439b079.css.map",
-    "main.a86b521e.js.map": "/Nike-platform-EC5001/static/js/main.a86b521e.js.map"
+    "main.93020101.css.map": "/Nike-platform-EC5001/static/css/main.93020101.css.map",
+    "main.b8d6dc6d.js.map": "/Nike-platform-EC5001/static/js/main.b8d6dc6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d439b079.css",
-    "static/js/main.a86b521e.js"
+    "static/css/main.93020101.css",
+    "static/js/main.b8d6dc6d.js"
   ]
 }
