@@ -1,38 +1,33 @@
-# EC5001 Project: Nike Recycle Platform - Group Sky Messenger
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# EC5001 Project: Nike Recycle Platform by Group Sky Messenger
 
 ### Group Members
-- keep secret
-- keep secret
-- keep secret
-- keep secret
+- TANG Ziwen
+- PENG Xinran
+- LIAO Yuxin
+- PAN Xiaoyu
+- YIN Zhaoxin
+- Xu Jingyi
+- Hou Xujie
+- Tian Xiaoyu
 
+### Project Description
+To visualize our Project of EC5001. Our Project is about a platform for Nike to recycle their products. We will use React to build the front-end and use Node.js to build the back-end. We will also use MongoDB to store the data.
 
-## Use Cases
+### Project Structure
+- Front-end: React
+- Back-end: Node.js (Not Yet)
 
-In the project directory, you can run:
+### How to Run
+1. Clone the project
+2. Run `npm install` to install the dependencies
+3. Run `npm start` to start the project
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm start`
+### Project Progress
+1. [√] Project Proposal
+2. [√] Project Plan
+3. [√] Project Design
+4. [√] Project Implementation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+### Visualize Url
+- https://fishcharlotte.github.io/Nike-platform-EC5001/
